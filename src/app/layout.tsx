@@ -31,7 +31,10 @@ export default function RootLayout({
                 alt='ucebol'
               />
             </div>
-            <div className='grid grid-cols-1 ml-3 gap-1 place-items-center'>
+            <div
+              className='grid grid-cols-1 ml-3 gap-1 lg:flex lg:flex-col 
+            lg:my-auto place-items-center lg:mx-auto'
+            >
               <h3>Universidad Cristiana de Bolivia</h3>
               <p>Carrera: Infectologia II</p>
               <p>Docente: Ivan Rodrigo Castedo</p>
