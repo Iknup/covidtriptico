@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  body {
+    @apply bg-background;
+  }
+  .indexes {
+    @apply mt-1 mb-3 text-2xl font-semibold scroll-mt-[90px];
+  }
+  .paragraph {
+    @apply leading-8 mb-4;
+  }
+
+  .bottom-border {
+    @apply border-b-2 border-Text;
+  }
+
+  .content-box {
+    @apply mb-3 bottom-border;
+  }
+
+  .contents-button {
+    @apply p-1 text-center pb-2;
+  }
+
+  .button-active {
+    @apply font-extrabold text-LightBlue;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hidden {
+    scrollbar-width: none;
+  }
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}
