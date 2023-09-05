@@ -64,7 +64,7 @@ const Navbar = () => {
   }, [activeButtonIndex]);
 
   return (
-    <nav className='fixed w-full lg:w-[1024px] bg-background  '>
+    <nav className='fixed w-full lg:w-[1024px] bg-background'>
       <div className='px-2'>
         <h1 className='indexes'>Contenido</h1>
         <div
@@ -73,12 +73,12 @@ const Navbar = () => {
         >
           <a
             id='link1'
-            className={`contents-button mr-2 ${
+            className={`contents-button whitespace-nowrap mr-2 ${
               activeButtonIndex === 1 && 'button-active'
             }`}
             href='#1'
           >
-            Introduccion
+            Que es PIMS?
           </a>
           <a
             id='link2'
@@ -87,16 +87,16 @@ const Navbar = () => {
             }`}
             href='#2'
           >
-            Fisiopatologia
+            Sintomas
           </a>
           <a
             id='link3'
-            className={`contents-button mr-2 ${
+            className={`contents-button whitespace-nowrap mr-2 ${
               activeButtonIndex === 3 && 'button-active'
             }`}
             href='#3'
           >
-            Epidemia
+            Factores de Riesgo
           </a>
           <a
             id='link4'
@@ -105,7 +105,7 @@ const Navbar = () => {
             }`}
             href='#4'
           >
-            Sintoma
+            Diagnóstico
           </a>
           <a
             id='link5'
