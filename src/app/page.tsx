@@ -26,7 +26,6 @@ const Home = () => {
 
   const onClickAncherTag = (x: Number) => {
     const target = document.getElementById(x.toString());
-    console.log(target);
     target && target.scrollIntoView({ block: 'start' });
   };
 
