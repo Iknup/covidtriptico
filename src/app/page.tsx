@@ -289,7 +289,9 @@ const Home = () => {
             </h3>
             <ul className='list-disc list-inside space-y-2 mb-4'>
               <li>
-                Medicamentos antiinflamatorios
+                <span className='font-bold'>
+                  Medicamentos antiinflamatorios
+                </span>
                 <ul className='list-disc list-inside space-y-2 pl-6'>
                   <li>
                     Inmunoglobulina intravenosa (IVIG)
@@ -359,7 +361,10 @@ const Home = () => {
                 </ul>
               </li>
               <li>
-                Tratamiento de los órganos afetcados
+                <span className='font-bold'>
+                  Tratamiento de los órganos afetcados
+                </span>
+
                 <ul className='list-disc list-inside space-y-2 pl-6'>
                   <li>
                     Cardiaco
